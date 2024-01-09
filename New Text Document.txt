@@ -1,0 +1,24 @@
+1. Create model
+empl.cs
+
+2. Create db context
+it is inside data folder
+appDBcontext.cs
+
+
+connection to database needs
+connection string
+authentication details
+
+get sql server explorer from view
+connect to sql server using icon
+give server name, make the trust to true
+select your db
+
+to get connection string, get the appsettings.json in from your solution explorer, 
+"ConnectionStrings": {
+  "Employee_API_CRUDContext": "
+select the database you are working (demodb) and select properties to find the connetion string, paste the string into the the above property.
+
+go to program.cs and add appdbcontext
+
